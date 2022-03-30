@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        魚画像
+    </title>
+    <style>
+        img {
+            width: 400px;
+            text-align: center;
+        }
+        h2{
+            padding: 1rem 2rem;
+            border: 3px solid #000;
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+        }
+        button{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>魚画像診断</h2>
+    <img src="{{b64data}}">
+    <p>あなたが入れた画像は{{score_1}}％の確率で「{{name}}」です({{score_1}}％)</p>
+    <a href="{{name_id}}">{{name}}の詳細</a>
+    <p><br>もしかしたら{{name2}}かもしれません({{score_2}}%)<br></p>
+    <a href="{{name2_id}}">{{name2}}の詳細</a>
+    <p><br></p>
+    <button onclick="location.href='/'">戻る</button>
+</body>
