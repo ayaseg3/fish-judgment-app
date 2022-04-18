@@ -33,6 +33,6 @@ python app.py
 ```
 
 ## Note
-* There is an html file in the templates folder with the same path.
-* my_model400.h5 is a pre-trained model using CNN.
+* There is an html file in the ***templates*** folder with the same path.
+* ***my_model400.h5*** is a pre-trained model using CNN.
 * Since it is in the prototype stage, we are only learning 10 kinds of river fish.
